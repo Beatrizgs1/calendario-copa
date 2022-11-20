@@ -9,6 +9,11 @@
     border-bottom: 2px solid #f4dd43;
 }
 
+.card ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 .card img{
     width: 3.125rem;
 }
@@ -17,6 +22,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.card ul li + li {
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--li-border-color);
+
 }
 
 .card ul li strong{

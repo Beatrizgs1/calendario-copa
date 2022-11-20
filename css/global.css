@@ -25,6 +25,9 @@ header{
 main{
     width: fit-content;
     margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 h2{
@@ -40,7 +43,7 @@ h2{
 
 span{
     color: white;
-    font-size: .875rem;
+    font-size: 0.700rem;
     text-transform: uppercase;
 }
 

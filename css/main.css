@@ -38,7 +38,7 @@
 .card h2:hover,
 .card ul li img:hover,
 .card ul li strong :hover{
-    transform: scale(1.2);
+    transform: scale(1.2g);
 }
 
 .card h2,
